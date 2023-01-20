@@ -1,10 +1,8 @@
 import bitly_api
  
-API_USER = "alvinja"
-API_KEY = "cb20f68d127028993fac93e4853d394bddc51fe8"
-bitly = bitly_api.Connection(API_USER, API_KEY)
+BITLY_ACCESS_TOKEN ="ACCESS_TOKEN"
  
-response = bitly.shorten('http://google.com/')
+b = bitly_api.Connection(access_token = BITLY_ACCESS_TOKEN)
  
-# Now let us print the Bitly URL
+response = b.shorten('http://google.com/')
 print(response)
