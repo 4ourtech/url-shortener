@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'urlshortener.urls'
+ROOT_URLCONF = 'url_shortener.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'urlshortener.wsgi.application'
+WSGI_APPLICATION = 'url_shortener.wsgi.application'
 
 
 # Database
